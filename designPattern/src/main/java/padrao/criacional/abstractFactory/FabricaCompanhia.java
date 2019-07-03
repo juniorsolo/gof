@@ -1,4 +1,4 @@
-package abstractFactory;
+package padrao.criacional.abstractFactory;
 
 public class FabricaCompanhia implements Modelo{
 

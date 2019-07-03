@@ -1,14 +1,14 @@
-package abstractFactory;
+package padrao.criacional.abstractFactory;
 
 import java.util.Scanner;
 
-public class TesteFabrica {
+public class TesteFabricaAbstrata {
 
 	private Scanner sc = new Scanner(System.in);
 	
 	public static void main(String[] args) {
 		
-		new TesteFabrica().executar();
+		new TesteFabricaAbstrata().executar();
 	}
 	
 	public void executar() {
